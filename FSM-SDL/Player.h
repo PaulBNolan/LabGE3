@@ -11,7 +11,6 @@ public:
 	~Player();
 
 	PlayerFSM m_state;
-	//AnimatedSprite m_animated_sprite;
 	void handleInput(Input);
 	void update();
 };

@@ -8,6 +8,10 @@
 #include "PlayerFSM.h"
 #include "Debug.h"
 
+/// <summary>
+/// This class is used as a base for the state behaviour
+/// </summary>
+
 class State
 {
 public:

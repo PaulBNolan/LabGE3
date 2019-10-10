@@ -140,8 +140,6 @@ void Game::loadContent()
 		m_source.h = 32;
 		m_destination.w = m_source.w * 10;
 		m_destination.h = m_source.h * 10;
-		m_x = 0;
-		m_y = 0;
 
 		DEBUG_MSG("Destination X:" + m_destination.x);
 		DEBUG_MSG("Destination Y:" + m_destination.y);
